@@ -46,15 +46,15 @@ h1 {
   word-spacing: 1rem;
   color: #212121;
 }
-.container {margin: 30px auto;}
+.container {
+  margin: 30px auto;
+}
 .name-result {
   display: flex;
   justify-content: space-evenly;
   margin: 20px 0;
   font-size: 1.5rem;
   align-items: center;
-}
-.name-result .name {
 }
 .name-result #result {
   padding: 15px 30px;
@@ -90,10 +90,7 @@ h1 {
   font-size: 5em;
   color: white;
 }
-.chosen #you {
-}
-.chosen #bot {
-}
+
 .select {
   text-align: center;
 }
